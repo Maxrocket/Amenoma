@@ -14,6 +14,7 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QDialog,
                              QWidget, QCheckBox, QHBoxLayout, QMessageBox)
 
 import ArtsInfo
+import ArtsLockSchema
 import ocr_EN
 import ocr_m_EN
 import utils
@@ -29,6 +30,7 @@ from rcc import Help_Dialog_EN
 from rcc import ExtraSettings_Dialog_EN
 from rcc import InputWindow_Dialog_EN
 from rcc.MainWindow_EN import Ui_MainWindow
+from utils import captureWindow
 
 class AboutDlg(QDialog, About_Dialog_EN.Ui_Dialog):
     def __init__(self, parent=None):
@@ -921,6 +923,7 @@ class Worker(QObject):
                 self.failed += 1
             self.art_id += 1
             saveImg(detected_info, art_img, status)
+            return detected_info
 
         def saveImg(detected_info, art_img, status):
             if self.detectSettings['ExtraSettings']['ExportAllImages']:
@@ -952,10 +955,54 @@ class Worker(QObject):
                 self.log(f"  - Failed: {self.failed}")
                 self.log(f"  - Skipped: {self.skipped}")
 
+        def artLockerCallback(art_img):
+            detectedInfo = self.model.detect_info(art_img)
+            utils.logger.info(f"Detected info: {detectedInfo}")
+            detected_info = artFilter(detectedInfo, art_img)
+
+            shouldBeLocked = False
+            artifactSet = ArtsInfo.Setnames_EN[detected_info['setid']]
+            if artifactSet not in ArtsLockSchema.ArtSchema:
+                artifactSet = "base"
+            artifactType = detected_info['type']
+            if detected_info['star'] == 5:
+                for acceptedStat in ArtsLockSchema.ArtSchema[artifactSet][artifactType]["mainStat"]:
+                    if acceptedStat in detected_info['main_attr_name']:
+                        numberOfExceptedSubstats = len(ArtsLockSchema.ArtSchema[artifactSet][artifactType]["subStats"])
+                        if acceptedStat in ArtsLockSchema.ArtSchema[artifactSet][artifactType]["subStats"]:
+                            numberOfExceptedSubstats -= 1
+                        for i in range(1,5):
+                            subStatName = "subattr_" + str(i)
+                            if subStatName in detected_info:
+                                for acceptedSubStat in ArtsLockSchema.ArtSchema[artifactSet][artifactType]["subStats"]:
+                                    if acceptedSubStat in detected_info[subStatName]:
+                                        numberOfExceptedSubstats -= 1
+                        if numberOfExceptedSubstats <= ArtsLockSchema.ArtSchema[artifactSet][artifactType]["tolerance"]:
+                            shouldBeLocked = True
+            
+                isCurrentlyLocked = False
+                pixel = artScanner.getWindow().getpixel((361, 259))
+                while pixel != (73, 83, 102) and pixel != (242, 239, 233):
+                    time.sleep(0.05)
+                    pixel = artScanner.getWindow().getpixel((361, 259))
+                if pixel == (73, 83, 102):
+                    isCurrentlyLocked = True
+
+                if detected_info['level'] == "+0":
+                    if isCurrentlyLocked != shouldBeLocked:
+                        print("TOGGLED TO " + str(shouldBeLocked))
+                        print(detected_info)
+                        prevPos = mouse.get_position()
+                        mouse.move(1622, 468)
+                        time.sleep(0.05)
+                        mouse.click()
+                        time.sleep(0.05)
+                        mouse.move(prevPos[0], prevPos[1])
+
         try:
             while True:
                 if artScanner.stopped or not artScanner.scanRows(rows=range(start_row, self.game_info.art_rows),
-                                                                 callback=artscannerCallback) or start_row != 0:
+                                                                 callback=artLockerCallback) or start_row != 0:
                     break
                 start_row = self.game_info.art_rows - artScanner.scrollToRow(self.game_info.art_rows, max_scrolls=20,
                                                                              extra_scroll=int(

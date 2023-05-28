@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"game",
+				"GameObject"
+			],
+			[
+				"re",
+				"remainingMovement"
+			],
+			[
+				"da",
+				"damage"
+			],
+			[
+				"remain",
+				"remainingAttacks"
+			],
+			[
+				"rem",
+				"remainingMovement"
+			],
+			[
+				"char",
+				"characterObject"
+			],
+			[
+				"turn",
+				"turnToRemove"
+			],
+			[
+				"item",
+				"Item1"
+			],
+			[
+				"current",
+				"currentHP"
+			],
+			[
+				"max",
+				"maxHP"
+			],
+			[
+				"curre",
+				"currentHP"
+			],
+			[
+				"to",
+				"toDamage"
+			],
+			[
+				"Ene",
+				"enemy"
+			],
+			[
+				"tur",
+				"turnOrder"
+			],
+			[
+				"get",
+				"getCookie"
+			],
+			[
+				"skill",
+				"skillValues"
+			],
+			[
+				"will",
+				"willSave"
+			],
+			[
+				"ref",
+				"refSave"
+			],
+			[
+				"stat",
+				"statIllegal"
+			],
+			[
+				"save",
+				"save-fort-cb"
+			],
+			[
+				"is-",
+				"is-one-quarter"
+			],
+			[
+				"ca",
+				"card-footer-item"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git: pull",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"json ",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/maxim/Documents/SD/stable-diffusion-webui/ui-config.json",
+		"/C/Users/maxim/Documents/notes/Elite Dangerous Data",
+		"/C/Users/maxim/Downloads/Boreal Family Tree.html",
+		"/C/Users/maxim/Documents/_DND/boreal_notes",
+		"/C/Users/maxim/AppData/Local/Temp/7zO8E94CC31/andesite_alloy.json",
+		"/C/Users/maxim/Downloads/download",
+		"/C/Users/maxim/Downloads/fiveLetterWordsLimitedPairedLimited (2)",
+		"/C/Users/maxim/Downloads/fiveLetterWordsLimitedPairedLimited_1",
+		"/C/Users/maxim/Documents/AdventOfCode/fiveLetterWords",
+		"/C/Users/maxim/Downloads/fiveLetterWordsLimitedPairedLimited",
+		"/C/Users/maxim/Documents/AdventOfCode/fiveLetterWordsLimitedPaired",
+		"/C/Users/maxim/Documents/AdventOfCode/fiveLetterWordsLimited",
+		"/C/Users/maxim/Documents/AdventOfCode/day1_input.txt",
+		"/C/Users/maxim/curseforge/minecraft/Instances/Create +/crash-reports/crash-2022-12-20_20.50.59-fml.txt",
+		"/C/Users/maxim/Saved Games/CD Projekt Red/Cyberpunk 2077/ManualSave-1/sav.dat",
+		"/C/Users/maxim/Saved Games/CD Projekt Red/Cyberpunk 2077/ManualSave-1/metadata.9.json",
+		"/C/Users/maxim/Downloads/Graduate Recruitment Exercises.txt",
+		"/C/Users/maxim/AppData/Local/Temp/7zO053B6C7E/bonemeal_from_crop.json",
+		"/C/Users/maxim/AppData/Local/Temp/7zO0534504D/brass_ingot.json",
+		"/C/Users/maxim/AppData/Local/Temp/7zO828F76ED/bonemeal_from_crop.json",
+		"/C/Users/maxim/AppData/Local/Temp/7zO8282BDEA/bonemeal_from_crop.json",
+		"/C/Users/maxim/Downloads/createab-1.18.2-0.4/data/create/recipes/compacting/blaze_rod.json",
+		"/C/Users/maxim/AppData/Local/Temp/Temp1_Create+Recipes++(1.2).zip/data/create_recipes_plus/recipes/netherrack_from_haunting.json",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Galvani_01-12-2022--23-37-26.log",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Galilei_01-12-2022--22-09-37.log",
+		"/C/Users/maxim/Downloads/crash-2022-11-23_05.58.26-fml.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/Rondo.Duo.Yoake.no.Fortissimo.Punyu.Puri.ff.part2/Rondo.Duo.Yoake.no.Fortissimo.Punyu.Puri.ff/Readme.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/Rondo.Duo.Yoake.no.Fortissimo.Punyu.Puri.ff/Readme.txt",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Galilei_27-11-2022--16-52-21.log",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/ADHNaBa5/Nakadashi Banzai 5/OFL.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/RE261011/Game play manual and basic overview.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/RE261011/readme_ENG.txt",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Socrates_24-11-2022--15-05-39.log",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Socrates_24-11-2022--15-04-31.log",
+		"/C/Users/maxim/PycharmProjects/escapeAliens/logs/Socrates_24-11-2022--14-59-40.log",
+		"/C/Users/maxim/Documents/MyTutorProject/api.py",
+		"/C/Users/maxim/Documents/notes/Pathfinder Character",
+		"/C/Users/maxim/OneDrive/Documents/missingEldenRingItems",
+		"/C/Users/maxim/Documents/_DND/orbo",
+		"/C/Users/maxim/Documents/genshinAccountPricing",
+		"/C/Users/maxim/Documents/Chummer5.224.0/data/complexforms.xml",
+		"/C/Users/maxim/Documents/Chummer5.224.0/logs/Chummer.2022-11-07_23-49-03.txt",
+		"/C/Users/maxim/Documents/Chummer5.224.0/data/complexforms.xsd",
+		"/C/Users/maxim/Downloads/sample-output-2.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/Unyielding/Unyielding/HOW TO RUN GAME!!.txt",
+		"/C/Users/maxim/Documents/DuckGame/where_is_my_save.txt",
+		"/C/Users/maxim/Documents/EldenRingDeaths_Maxime.txt",
+		"/C/Users/maxim/Downloads/Unnamed Character.json",
+		"/C/Users/maxim/Documents/Character.txt",
+		"/C/Users/maxim/Documents/_DND/Rime of the Frostmaiden/download.gif",
+		"/C/Users/maxim/Documents/AlgoGameTheory.txt",
+		"/C/Users/maxim/Downloads/artifacts.genshinart.json",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Actions/AttackAction.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Weapons/MeleeWeapon.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/PortraitOnHover.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Enemies/Enemy.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Player.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Enemies/AIApproachAndHit.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Enemies/Zombie.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Actions/MoveAction.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Character.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/ActionBar.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/StartCombat.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/InitiativeTracker.cs",
+		"/C/Users/maxim/Downloads/EldenRingDeaths_Ethan.txt",
+		"/C/Users/maxim/Downloads/EldenRingDeaths_Joseph.txt",
+		"/C/Users/maxim/Downloads/EldenRingDeaths_Kaleb.txt",
+		"/C/Users/maxim/Downloads/EldenRingDeaths_Jacob.txt",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Weapons/Weapon.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Weapons/WeaponList.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Enemy.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Weapon.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Actions/EnemySelectableAction.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/SelectableAction.cs",
+		"/C/Users/maxim/Darkest Marchers/Assets/Scripts/Skills.cs",
+		"/C/Users/maxim/Documents/EldenRingDeaths",
+		"/C/Users/maxim/Documents/hungergames strat",
+		"/C/Users/maxim/Downloads/Flip-A-Coin.untap.txt",
+		"/C/Users/maxim/Downloads/surnames.txt",
+		"/C/Users/maxim/Downloads/UnityRPG-CompleteProject/unityrpg/Assets/Scripts/StartBattle.cs",
+		"/C/Users/maxim/Downloads/XNB To PNG Converter/XNB To PNG Converter/Readme.txt",
+		"/C/Users/maxim/Downloads/firstnames.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/AGRSS-0.1.5-pc/AGRSS-0.1.5-pc/log.txt",
+		"/C/Users/maxim/Downloads/message (16).txt",
+		"/C/Users/maxim/Downloads/message (17).txt",
+		"/C/Users/maxim/Downloads/message (18).txt",
+		"/C/Users/maxim/Downloads/fixed_shuffled_run_1.txt",
+		"/C/Users/maxim/Downloads/uniform_shuffled_mig_run_0.txt",
+		"/C/Users/maxim/Downloads/uniform_shuffled_mig_run_2.txt",
+		"/C/Users/maxim/Downloads/uniform_shuffled_mig_run_1.txt",
+		"/C/Users/maxim/Downloads/fixed_shuffled_run_0.txt",
+		"/C/Users/maxim/Downloads/uniform_shuffled_run_2.txt",
+		"/C/Users/maxim/Downloads/uniform_shuffled_run_0.txt",
+		"/C/Users/maxim/Downloads/fixed_run_11.txt",
+		"/C/Users/maxim/Downloads/uniform_run_15.txt",
+		"/C/Users/maxim/Downloads/rmhc_run_1.txt",
+		"/C/Users/maxim/Downloads/rmhc_run_0.txt",
+		"/C/Users/maxim/Downloads/fixed_run_2.txt",
+		"/C/Users/maxim/Downloads/uniform_run_0_replaceWorst.txt",
+		"/C/Users/maxim/Downloads/fixed_run_1.txt",
+		"/C/Users/maxim/Downloads/uniform_run_0_replace.txt",
+		"/C/Users/maxim/Downloads/fixed_run_0.txt",
+		"/C/Users/maxim/Downloads/uniform_run_0.txt",
+		"/C/Users/maxim/Documents/GitPages/index.html",
+		"/C/Users/maxim/Documents/GitPages/main.js",
+		"/C/Users/maxim/Documents/mtg edh/To Me To You.untap.txt",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/Harem_Hotel-v0.15.1-pc/Harem_Hotel-v0.15.1-pc/traceback.txt",
+		"/C/Users/maxim/AppData/Local/Temp/Temp1_avr-gcc-11.1.0-x64-windows.zip/avr-gcc-11.1.0-x64-windows/README.txt",
+		"/C/Users/maxim/curseforge/minecraft/Install/launcher_settings.json",
+		"/C/Users/maxim/OneDrive/example.tex",
+		"/C/Users/maxim/Downloads/main.js",
+		"/C/Users/maxim/Downloads/AllPrices.json",
+		"/C/Users/maxim/Downloads/message (15).txt",
+		"/C/Users/maxim/Downloads/The Count.untap.txt",
+		"/C/Users/maxim/Documents/int agents/AlwaysElicit_NO_LP",
+		"/C/Users/maxim/Downloads/message (14).txt",
+		"/C/Users/maxim/Downloads/artifact.csv",
+		"/C/Users/maxim/Downloads/97 Lands.untap.txt",
+		"/C/Users/maxim/Downloads/UNF.json",
+		"/C/Users/maxim/Downloads/Character.txt",
+		"/C/Users/maxim/Downloads/To Me To You.untap.txt",
+		"/C/Users/maxim/Documents/int agents/genius-9.1.13/PhoenixParty1217723163.txt",
+		"/C/Users/maxim/Documents/int agents/AlwaysElicit",
+		"/C/Users/maxim/Downloads/Agent271-Agent27.txt",
+		"/C/Users/maxim/Downloads/Agent271-Agent27_-_Copy.txt",
+		"/C/Users/maxim/Documents/int agents/JohnyBlack",
+		"/C/Users/maxim/Documents/MEGAsync Downloads/heros-harem-guild-win-official/HHGv0.1.2-v0.1.2-pc/traceback.txt",
+		"/C/Users/maxim/Downloads/WaitingTimes.csv"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".gitattributes.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

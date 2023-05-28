@@ -134,6 +134,7 @@ class ArtScannerLogic:
                         self.game_info.art_info_top,
                         self.game_info.art_info_left + self.game_info.art_info_width,
                         self.game_info.art_info_top + self.game_info.art_info_height))
+                    callback(art_img)
                     if art_col == self.game_info.art_cols - 1:
                         art_row += 1
                         art_col = 0
@@ -143,10 +144,17 @@ class ArtScannerLogic:
                         art_center_x, art_center_y = self.getArtCenter(art_row, art_col)
                         mouse.move(self.game_info.left + art_center_x, self.game_info.top + art_center_y)
                         mouse.click()
-                    callback(art_img)
                 else:
                     return False
         return True
+
+    def getWindow(self):
+        art_img = captureWindow(self.game_info.hwnd, (
+        self.game_info.art_info_left,
+        self.game_info.art_info_top,
+        self.game_info.art_info_left + self.game_info.art_info_width,
+        self.game_info.art_info_top + self.game_info.art_info_height))
+        return art_img
 
     def alignFirstRow(self):
         mouse.move(self.game_info.left + self.game_info.first_art_x, self.game_info.top + self.game_info.first_art_y)

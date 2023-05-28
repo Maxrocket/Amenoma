@@ -17,3 +17,6 @@ ArtScanner/artifacts/**
 .idea/**
 
 /ArtScanner/materials/
+ArtScanner/artifacts.genshinart.json
+ArtScanner/Amenoma.log
+Amenoma.log
